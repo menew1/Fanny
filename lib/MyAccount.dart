@@ -22,8 +22,8 @@ class MyAccount extends StatelessWidget{
             Container(  
               margin: EdgeInsets.all(25),  
               child: FlatButton(  
-                child: Text('Logout', style: TextStyle(fontSize: 20.0),),
-                 icon : Icons(Icon.logout),  
+              child: Text('Logout', style: TextStyle(fontSize: 20.0),),
+              Icons(Icon.logout),  
                 color: Colors.blueAccent,  
                 textColor: Colors.white,  
                 onPressed: () {},  
