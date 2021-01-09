@@ -12,14 +12,15 @@ class MyAccount extends StatelessWidget{
             Container(  
               margin: EdgeInsets.all(25),  
               child: FlatButton(  
-                child: Text('SignUp', style: TextStyle(fontSize: 20.0),),  
+                child: Text('Settings', style: TextStyle(fontSize: 20.0),), 
+                color : Colors.black, 
                 onPressed: () {},  
               ),  
             ),  
             Container(  
               margin: EdgeInsets.all(25),  
               child: FlatButton(  
-                child: Text('LogIn', style: TextStyle(fontSize: 20.0),),  
+                child: Text('Logout', style: TextStyle(fontSize: 20.0),),  
                 color: Colors.blueAccent,  
                 textColor: Colors.white,  
                 onPressed: () {},  
