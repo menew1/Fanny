@@ -12,7 +12,8 @@ class MyAccount extends StatelessWidget{
             Container(  
               margin: EdgeInsets.all(25),  
               child: FlatButton(  
-                child: Text('Settings', style: TextStyle(fontSize: 20.0),), 
+                child: Text('Settings', style: TextStyle(fontSize: 20.0),),
+                
                 color : Colors.black,
                 textColor : Colors.white, 
                 onPressed: () {},  
@@ -21,7 +22,8 @@ class MyAccount extends StatelessWidget{
             Container(  
               margin: EdgeInsets.all(25),  
               child: FlatButton(  
-                child: Text('Logout', style: TextStyle(fontSize: 20.0),),  
+                child: Text('Logout', style: TextStyle(fontSize: 20.0),),
+                 child: Icons(Icon.logout),  
                 color: Colors.blueAccent,  
                 textColor: Colors.white,  
                 onPressed: () {},  
