@@ -8,7 +8,26 @@ class MyAccount extends StatelessWidget{
        appBar : AppBar(
            title : Text("My Account"),
        ),
-     
+     body: Center(child: Column(children: <Widget>[  
+            Container(  
+              margin: EdgeInsets.all(25),  
+              child: FlatButton(  
+                child: Text('SignUp', style: TextStyle(fontSize: 20.0),),  
+                onPressed: () {},  
+              ),  
+            ),  
+            Container(  
+              margin: EdgeInsets.all(25),  
+              child: FlatButton(  
+                child: Text('LogIn', style: TextStyle(fontSize: 20.0),),  
+                color: Colors.blueAccent,  
+                textColor: Colors.white,  
+                onPressed: () {},  
+              ),  
+            ),  
+          ], 
+     ),
+     ),  
 
      );
   }
