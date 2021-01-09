@@ -13,7 +13,8 @@ class MyAccount extends StatelessWidget{
               margin: EdgeInsets.all(25),  
               child: FlatButton(  
                 child: Text('Settings', style: TextStyle(fontSize: 20.0),), 
-                color : Colors.black, 
+                color : Colors.black,
+                textColor : Colors.white, 
                 onPressed: () {},  
               ),  
             ),  
