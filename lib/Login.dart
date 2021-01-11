@@ -44,6 +44,22 @@ class Login extends StatelessWidget{
        );
                 },  
               ),  
+            ),
+            SizedBox(width: 5.0),
+            Row(
+                mainAxisAlignment : MainAxisAlignment.center,
+                children : <Widget>
+                [
+                    Text('New to Fanny:', style : TextStyle(fontFamily: 'Montserrat' ),),
+
+                    SizedBox(width : 5.0)
+                    InkWell(
+                        onPressed : () {}
+                        child : Text('Register', style: Textstyle(color : Colors.green, fontFamily : 'Montserrat', fontWeight : FontWeight.bold, decoration : TextDecoration.underline )
+                    ),
+                ), 
+
+                ],
             ),   
           ],  
          ),
