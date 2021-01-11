@@ -9,8 +9,8 @@ class MyAccount extends StatelessWidget{
            title : Text("My Account"),
        ),
 
-      body: Center(child: Column(children: <Widget>[ 
-            mainAxisSize: MainAxisSize.min,   
+      body: (child: Column(children: <Widget>[ 
+               
             Container(  
               margin: EdgeInsets.all(25),  
               child: FlatButton(  
