@@ -24,7 +24,10 @@ class MyAccount extends StatelessWidget{
                 child: Text('Logout', style: TextStyle(fontSize: 20.0),),  
                 color: Colors.red,  
                 textColor: Colors.white,  
-                onPressed: () {},  
+                onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder : (context)=>Login()),
+       );
+                },  
               ),  
             ),
             Container(  
