@@ -53,7 +53,7 @@ class Login extends StatelessWidget{
                     Text('New to Fanny?', style : TextStyle(fontFamily: 'Montserrat'),
                     ),
 
-                    SizedBox(width : 5.0),
+                    SizedBox(width : 15.0),
                     InkWell(
                         onTap : () {},
                         child : Text('Register', style : TextStyle(color : Colors.green, fontFamily : 'Montserrat', fontWeight : FontWeight.bold, decoration : TextDecoration.underline ),
