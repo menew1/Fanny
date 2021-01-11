@@ -16,7 +16,7 @@ class MyAccount extends StatelessWidget{
                 Padding(  
                   padding: EdgeInsets.all(15),  
                   child: new ButtonBar(  
-                    mainAxisSize: MainAxisSize.start,  
+                    mainAxisSize: MainAxisSize.min,  
                     children: <Widget>[  
                       RaisedButton(  
                         child: new Text('Javatpoint'),  
