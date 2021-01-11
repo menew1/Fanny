@@ -12,14 +12,14 @@ class MyAccount extends StatelessWidget{
       body:Center(child: Column(children: <Widget>[ 
                
             Container(  
-              margin: EdgeInsets.all(25),  
+              margin: EdgeInsets.all(5),  
               child: FlatButton(  
                 child: Text('SignUp', style: TextStyle(fontSize: 20.0),),  
                 onPressed: () {},  
               ),  
             ),  
             Container(  
-              margin: EdgeInsets.all(25),  
+              margin: EdgeInsets.all(5),  
               child: FlatButton(  
                 child: Text('LogIn', style: TextStyle(fontSize: 20.0),),  
                 color: Colors.blueAccent,  
