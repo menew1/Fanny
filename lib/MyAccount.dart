@@ -9,8 +9,8 @@ class MyAccount extends StatelessWidget{
            title : Text("My Account"),
        ),
 
-      body: Padding(  
-            padding: EdgeInsets.all(10),  
+      body: Center(  
+            
             child: Row(  
               children: <Widget>[  
                 Padding(  
@@ -37,8 +37,9 @@ class MyAccount extends StatelessWidget{
                   ),  
                 ),  
               ],  
-            ),  
-        ),   
+            ),
+      ),   
+        
      
      );
   }
