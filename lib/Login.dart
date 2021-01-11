@@ -56,7 +56,7 @@ class Login extends StatelessWidget{
                     SizedBox(width : 5.0),
                     InkWell(
                         onTap : () {},
-                        child : Text('Register', style: Textstyle(color : Colors.green, fontFamily : 'Montserrat', fontWeight : FontWeight.bold, decoration : TextDecoration.underline )
+                        child : Text('Register', style : TextStyle(color : Colors.green, fontFamily : 'Montserrat', fontWeight : FontWeight.bold, decoration : TextDecoration.underline ),
                     ),
                 ), 
 
