@@ -8,41 +8,38 @@ class MyAccount extends StatelessWidget{
        appBar : AppBar(
            title : Text("My Account"),
        ),
-     body: Center(child: Column(children: <Widget>[  
-            Container(  
-              margin: EdgeInsets.all(25),  
-              child: FlatButton(  
-                child: Text('Settings', style: TextStyle(fontSize: 20.0),),
-                
-                color : Colors.black,
-                textColor : Colors.white, 
-                onPressed: () {},  
-              ),  
-            ),  
-            Container(  
-              margin: EdgeInsets.all(25),  
-              child: FlatButton(  
-              child: Text('Logout', style: TextStyle(fontSize: 20.0),),
-              color: Colors.blueAccent,  
-                textColor: Colors.white,  
-                onPressed: () {},  
-              ),  
-            ), 
-            
-            Container(  
-              margin: EdgeInsets.all(25),  
-              child: FlatButton(  
-              child: Text('Support', style: TextStyle(fontSize: 20.0),),
-              color: Colors.green,  
-                textColor: Colors.white,  
-                onPressed: () {},  
-              ),  
-            ),  
 
-          ], 
-     ),
-     ),  
-
+      body: Padding(  
+            padding: EdgeInsets.all(10),  
+            child: Column(  
+              children: <Widget>[  
+                Padding(  
+                  padding: EdgeInsets.all(15),  
+                  child: new ButtonBar(  
+                    mainAxisSize: MainAxisSize.start,  
+                    children: <Widget>[  
+                      RaisedButton(  
+                        child: new Text('Javatpoint'),  
+                        color: Colors.lightGreen,  
+                          onPressed: () {/** */},  
+                      ),  
+                      FlatButton(  
+                        child: Text('Flutter'),  
+                        color: Colors.lightGreen,  
+                        onPressed: () {/** */},  
+                      ),  
+                      FlatButton(  
+                        child: Text('MySQL'),  
+                        color: Colors.lightGreen,  
+                        onPressed: () {/** */},  
+                      ),  
+                    ],  
+                  ),  
+                ),  
+              ],  
+            ),  
+        ),   
+     
      );
   }
 
