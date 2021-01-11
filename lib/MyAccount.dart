@@ -9,37 +9,27 @@ class MyAccount extends StatelessWidget{
            title : Text("My Account"),
        ),
 
-      body: Center(  
-            
-            child: Row(  
-              children: <Widget>[  
-                Padding(  
-                  padding: EdgeInsets.all(15),  
-                  child: new ButtonBar(  
-                    mainAxisSize: MainAxisSize.min,  
-                    children: <Widget>[  
-                      RaisedButton(  
-                        child: new Text('Javatpoint'),  
-                        color: Colors.lightGreen,  
-                          onPressed: () {/** */},  
-                      ),  
-                      FlatButton(  
-                        child: Text('Flutter'),  
-                        color: Colors.lightGreen,  
-                        onPressed: () {/** */},  
-                      ),  
-                      FlatButton(  
-                        child: Text('MySQL'),  
-                        color: Colors.lightGreen,  
-                        onPressed: () {/** */},  
-                      ),  
-                    ],  
-                  ),  
-                ),  
-              ],  
-            ),
+      body: Center(child: Column(children: <Widget>[ 
+            mainAxisSize: MainAxisSize.min,   
+            Container(  
+              margin: EdgeInsets.all(25),  
+              child: FlatButton(  
+                child: Text('SignUp', style: TextStyle(fontSize: 20.0),),  
+                onPressed: () {},  
+              ),  
+            ),  
+            Container(  
+              margin: EdgeInsets.all(25),  
+              child: FlatButton(  
+                child: Text('LogIn', style: TextStyle(fontSize: 20.0),),  
+                color: Colors.blueAccent,  
+                textColor: Colors.white,  
+                onPressed: () {},  
+              ),  
+            ),  
+          ],  
+         ),
       ),   
-        
      
      );
   }
