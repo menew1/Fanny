@@ -9,7 +9,7 @@ class MyAccount extends StatelessWidget{
            title : Text("My Account"),
        ),
 
-      body: (child: Column(children: <Widget>[ 
+      body:Center(child: Column(children: <Widget>[ 
                
             Container(  
               margin: EdgeInsets.all(25),  
