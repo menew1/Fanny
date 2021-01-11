@@ -11,7 +11,9 @@ class MyAccount extends StatelessWidget{
            title : Text("My Account"),
        ),
 
-      body:Center(child: Column(children: <Widget>[ 
+      body:Center(child: Column(
+          CrossAxisAlignment : CrossAxisAlignment.start,
+          children: <Widget>[ 
                
             Container(  
               margin: EdgeInsets.all(15),  
