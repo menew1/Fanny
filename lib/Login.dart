@@ -12,7 +12,7 @@ class Login extends StatelessWidget{
     body:Center(child: Column(children: <Widget>[ 
                
             Container(  
-              margin: EdgeInsets.all(20),  
+              margin: EdgeInsets.all(30),  
               child: FlatButton(  
                 child: Text('Continue with Google', style: TextStyle(fontSize: 20.0),),  
                 color: Colors.red,  
@@ -24,7 +24,7 @@ class Login extends StatelessWidget{
               ),  
             ),  
             Container(  
-              margin: EdgeInsets.all(20),  
+              margin: EdgeInsets.all(30),  
               child: FlatButton(  
                 child: Text('Continue with Facebook', style: TextStyle(fontSize: 20.0),),  
                 color: Colors.blueAccent,  
@@ -36,7 +36,7 @@ class Login extends StatelessWidget{
               ),  
             ),
             Container(  
-              margin: EdgeInsets.all(20),  
+              margin: EdgeInsets.all(30),  
               child: FlatButton(  
                 child: Text('Continue with Email', style: TextStyle(fontSize: 20.0),),  
                 onPressed: () {
