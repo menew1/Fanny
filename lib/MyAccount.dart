@@ -11,7 +11,7 @@ class MyAccount extends StatelessWidget{
 
       body: Padding(  
             padding: EdgeInsets.all(10),  
-            child: Column(  
+            child: Row(  
               children: <Widget>[  
                 Padding(  
                   padding: EdgeInsets.all(15),  
