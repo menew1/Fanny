@@ -12,7 +12,7 @@ class MyAccount extends StatelessWidget{
        ),
 
       body:Center(child: Column(
-          CrossAxisAlignment : CrossAxisAlignment.start,
+          
           children: <Widget>[ 
                
             Container(  
