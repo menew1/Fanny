@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'FirstScreen.dart';
+import 'LoginWithEmail.dart';
 
 class Login extends StatelessWidget{
   @override
@@ -40,7 +41,7 @@ class Login extends StatelessWidget{
               child: FlatButton(  
                 child: Text('Continue with Email', style: TextStyle(fontSize: 20.0),),  
                 onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder : (context)=>FirstScreen()),
+                    Navigator.push(context, MaterialPageRoute(builder : (context)=>LoginWithEmail()),
        );
                 },  
               ),  
