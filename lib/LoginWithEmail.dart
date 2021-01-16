@@ -11,7 +11,7 @@ class LoginWithEmail extends StatelessWidget{
               new Column(
                   children : <Widget>[
                       new FlutterLogo(
-                          size : 80.0;
+                          size : 80.0,
                       ),
                   ],
               ),
