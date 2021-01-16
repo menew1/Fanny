@@ -7,9 +7,9 @@ class LoginWithEmail extends StatelessWidget{
      return Scaffold(
        
       body : new Stack(
-          children : new <widget>[
+          children :  <Widget>[
               new Column(
-                  children : new <widget>[
+                  children : <Widget>[
                       new FlutterLogo(
                           size : 80.0;
                       ),
